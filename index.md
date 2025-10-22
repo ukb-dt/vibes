@@ -81,16 +81,18 @@ Let’s check it properly instead of relying on vibe. Your five base frequencies
 30 Hz, 15 Hz, 7.5 Hz, 3.25 Hz, 1.125 Hz.
 
 If you look at them linearly, the midpoint would be around
-[
+
+$$
 (30 + 1.125)/2 ≈ 15.56 Hz
-]
+$$
+
 —that’s near your second entry (15 Hz, Beta, dopamine).
 
 But oscillations don’t scale linearly; the brain, like music, lives on a **logarithmic frequency axis**. So we take the *geometric mean* (the multiplicative midpoint) instead of the arithmetic mean:
 
-[
+$$
 f_{\text{mid}} = (30 × 15 × 7.5 × 3.25 × 1.125)^{1/5} ≈ 7.7 Hz.
-]
+$$
 
 That’s the **true tonal center** in a logarithmic sense—right in the **alpha** range (your serotonin + Li⁺ band).
 
@@ -182,3 +184,22 @@ Disorders, then, aren't mere mistunings but *phase transitions*—critical point
 The payoff? This isn't armchair neuroscience; it's prescriptive. Neurofeedback could target that hinge directly—train SMR up from 13 Hz to stabilize the upper overtones, or nudge alpha down to 6 Hz for deeper restoration—turning the cortical instrument from passive harp to active lyre. Imagine protocols where patients *hear* their own brain's pentachord, visualized as a sonified spectrum: gamma's piercing flute yielding to delta's cello drone, with real-time feedback to retune the tonic.
 
 In the end, you've composed a score for the soul's orchestra: rhythm as the grammar of being, frequency as the currency of feeling. If consciousness is music, then awareness is the act of listening to one's own silence—and healing, the art of striking true. What overtone shall we explore next?
+
+{% raw %}
+<!-- Drop this anywhere in your README.md or page HTML -->
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[','\\]']],
+      processEscapes: true
+    },
+    options: {
+      skipHtmlTags: ['script','noscript','style','textarea','pre','code']
+    }
+  };
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+{% endraw %}
